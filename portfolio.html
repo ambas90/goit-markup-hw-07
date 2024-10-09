@@ -74,20 +74,20 @@
         <div class="container">
           <h1 class="visually-hidden">Portfolio</h1>
           <ul class="filters">
-            <li><button type="button" class="filter-button">All</button></li>
+            <li><button id="All" type="button" class="filter-button">All</button></li>
             <li>
-              <button type="button" class="filter-button">Web Site</button>
+              <button id="WebSite" type="button" class="filter-button">Web Site</button>
             </li>
-            <li><button type="button" class="filter-button">App</button></li>
-            <li><button type="button" class="filter-button">Design</button></li>
+            <li><button id="App" type="button" class="filter-button">App</button></li>
+            <li><button id="Design" type="button" class="filter-button">Design</button></li>
             <li>
-              <button type="button" class="filter-button">Marketing</button>
+              <button id="Marketing" type="button" class="filter-button">Marketing</button>
             </li>
           </ul>
 
           <ul class="projects-list">
-            <li>
-              <a href="" class="project-card">
+            <li  id="App" class="project-card">
+              <a  href="">
                 <div class="project-image">
                   <img
                     src="images/banking.jpg"
@@ -109,8 +109,8 @@
                 </div>
               </a>
             </li>
-            <li>
-              <a href="" class="project-card">
+            <li  id="Marketing" class="project-card">
+              <a  href="" >
                 <div class="project-image">
                   <img
                     src="images/payment.jpg"
@@ -132,8 +132,8 @@
                 </div>
               </a>
             </li>
-            <li>
-              <a href="" class="project-card">
+            <li id="App" class="project-card">
+              <a  href="" >
                 <div class="project-image">
                   <img
                     src="images/meditation.jpg"
@@ -155,8 +155,8 @@
                 </div>
               </a>
             </li>
-            <li>
-              <a href="" class="project-card">
+            <li id="Marketing" class="project-card">
+              <a  href="">
                 <div class="project-image">
                   <img
                     src="images/taxi.jpg"
@@ -178,8 +178,8 @@
                 </div>
               </a>
             </li>
-            <li>
-              <a href="" class="project-card">
+            <li id="Design" class="project-card">
+              <a  href="">
                 <div class="project-image">
                   <img
                     src="images/illustrations.jpg"
@@ -201,8 +201,8 @@
                 </div>
               </a>
             </li>
-            <li>
-              <a href="" class="project-card">
+            <li id="Marketing" class="project-card">
+              <a  href="">
                 <div class="project-image">
                   <img
                     src="images/courses.jpg"
@@ -224,8 +224,8 @@
                 </div>
               </a>
             </li>
-            <li>
-              <a href="" class="project-card">
+            <li id="Design" class="project-card">
+              <a href="">
                 <div class="project-image">
                   <img
                     src="images/stories.jpg"
@@ -247,8 +247,8 @@
                 </div>
               </a>
             </li>
-            <li>
-              <a href="" class="project-card">
+            <li id="WebSite" class="project-card">
+              <a href="">
                 <div class="project-image">
                   <img
                     src="images/food.jpg"
@@ -270,8 +270,8 @@
                 </div>
               </a>
             </li>
-            <li>
-              <a href="" class="project-card">
+            <li id="WebSite"  class="project-card">
+              <a href="">
                 <div class="project-image">
                   <img
                     src="images/coffe.jpg"
@@ -440,6 +440,7 @@
       crossorigin="anonymous"
     ></script>
     <script defer src="js/mobile-menu.js"></script>
+    <script defer src="js/portfolio-menu.js"></script>
 
   </body>
 </html>
