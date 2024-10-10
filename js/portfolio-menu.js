@@ -14,5 +14,6 @@ function handleClick(event) {
       project.style.display = "none";
     }
   });
+}
 
 filterButtons.addEventListener("click", handleClick);
