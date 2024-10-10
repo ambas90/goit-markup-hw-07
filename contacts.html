@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebStudio</title>
+  </head>
+
+  <body>
+    <header class="header-line">
+      <div class="container top-line">
+        <nav class="navigation">
+          <a href="./index.html" class="logo">
+            <span class="logo-accent">Web</span><span>Studio</span>
+          </a>
+
+          <ul class="top-menu">
+            <li>
+              <a href="./index.html" class=" nav-link link"
+                >Studio</a
+              >
+            </li>
+            <li>
+              <a href="./portfolio.html" class="nav-link link">Portfolio</a>
+            </li>
+            <li><a href="" class="current-link nav-link link">Contacts</a></li>
+          </ul>
+        </nav>
+        <address>
+          <ul class="contacts">
+            <li>
+              <a href="mailto:info@devstudio.com" class="contact-link link"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:+110001111111" class="contact-link link"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+        <button
+          class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <div class="hamburger-icon">
+            <svg width="32px" height="22px">
+              <use href="./images/icons.svg#icon-hamburger"></use>
+            </svg>
+          </div>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="container">
+          <h2 class="section-header">
+Fly into space with us
+</h2>
+<div class="map-container">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2530.4510991255606!2d19.021693726523157!3d50.26623792155753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4716ce307f52e6d7%3A0xca1a29679fe78a5b!2sHala%20widowiskowo-sportowa%20%22Spodek%22%20w%20Katowicach!5e1!3m2!1spl!2spl!4v1728589570388!5m2!1spl!2spl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer-bg">
+      <div class="container footer-wrapper">
+        <div>
+          <a href="./index.html" class="footer-logo">
+            <span class="logo-accent">Web</span>
+            <span class="logo-accent-white">Studio</span>
+          </a>
+          <p class="footer-slogan">
+            Increase the flow of customers and sales for your business with
+            digital marketing & growth solutions.
+          </p>
+        </div>
+        <div class="footer-social">
+          <span class="footer-title">Social media</span>
+          <ul class="footer-social-icons">
+            <li>
+              <a href="" class="social-icon-footer">
+                <svg width="24px" height="24px">
+                  <use href="./images/icons.svg#icon-instagram-2"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="" class="social-icon-footer">
+                <svg width="24px" height="24px">
+                  <use href="./images/icons.svg#icon-twitter-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="" class="social-icon-footer">
+                <svg width="24px" height="24px">
+                  <use href="./images/icons.svg#icon-facebook-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="" class="social-icon-footer">
+                <svg width="24px" height="24px">
+                  <use href="./images/icons.svg#icon-linkedin-1"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+          
+             <div class="subscribe-wrapper">
+              <div>
+            <span class="footer-title">Subscribe</span>
+            
+           <form name="subscribe">
+              <label for="email">
+                <input
+                  id="email"
+                  type="email"
+                  placeholder="E-mail"
+                  class="subscribe-email"
+                  required
+                />
+              </label>
+              </div>
+              <div>
+              <button class="subscribe-button" tyle="submit">
+                Subscribe
+                <div class="send-icon">
+                  <svg widht="24px" height="24px">
+                    <use href="./images/icons.svg#icon-send"></use>
+                  </svg>
+                </div>
+              </button>
+              </form>
+              </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle js-close-menu">
+        <svg width="8px" height="8px">
+          <use href="./images/icons.svg#icon-close-black"></use>
+        </svg>
+      </button>
+      <div class="mobile-menu-wrapper">
+        <ul class="mobile-menu">
+          <li><a href="./index.html" class="link mobile-active">Studio</a></li>
+          <li><a href="./portfolio.html" class="link">Portfolio</a></li>
+          <li><a href="" class="link">Contacts</a></li>
+        </ul>
+        <div class="mobile-contacts">
+          <ul>
+            <li>
+              <a href="tel:+110001111111" class="mobile-tel"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+            <li>
+              <a href="mailto:info@devstudio.com" class="mobile-mail"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+          <ul class="mobile-social-icons">
+            <li>
+              <a href="" class="social-icon-mobile">
+                <svg width="24px" height="24px">
+                  <use href="./images/icons.svg#icon-instagram-2"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="" class="social-icon-mobile">
+                <svg width="24px" height="24px">
+                  <use href="./images/icons.svg#icon-twitter-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="" class="social-icon-mobile">
+                <svg width="24px" height="24px">
+                  <use href="./images/icons.svg#icon-facebook-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="" class="social-icon-mobile">
+                <svg width="24px" height="24px">
+                  <use href="./images/icons.svg#icon-linkedin-1"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal is-hidden" data-modal>
+      <div class="modal-body">
+        <button data-modal-close type="button" class="modal-close-button">
+          <svg width="8px" height="8px">
+            <use href="./images/icons.svg#icon-close-black"></use>
+          </svg>
+        </button>
+        <h3>Leave your contacts and we will call you back</h3>
+        <form name="order_service" class="modal-inputs-wrapper">
+          <label for="username"> <span class="input-label">Name</span></label>
+          <div class="input-wrapper">
+            <input id="username" type="text" name="username" required />
+            <svg width="18px" height="24px" class="modal-icon">
+              <use href="./images/icons.svg#icon-person"></use>
+            </svg>
+          </div>
+          <label for="phone"> <span class="input-label">Phone</span></label>
+          <div class="input-wrapper">
+            <input id="phone" type="number" name="phone" required />
+            <svg width="18px" height="24px" class="modal-icon">
+              <use href="./images/icons.svg#icon-phone"></use>
+            </svg>
+          </div>
+          <label for="email"><span class="input-label">Email</span></label>
+          <div class="input-wrapper">
+            <input id="email" type="email" name="email" required />
+            <svg width="18px" height="24px" class="modal-icon">
+              <use href="./images/icons.svg#icon-email"></use>
+            </svg>
+          </div>
+          <label for="comment"> <span class="input-label">Comment</span></label>
+          <div class="input-wrapper">
+            <textarea
+              id="comment"
+              name="comment"
+              placeholder="Text inputs"
+            ></textarea>
+          </div>
+          <div class="tc-accept-wrapper">
+            <label for="tc-accept">
+              <input
+                id="tc-accept"
+                type="checkbox"
+                name="tc-accept"
+                class="checkbox"
+                required
+              />
+              <div class="checkbox-icon">
+                <svg width="14px" height="14px">
+                  <use href="./images/icons.svg#icon-check"></use>
+                </svg>
+              </div>
+              <span class="input-label"
+                >I accept the terms and conditions of the
+                <a href="" class="link">Privacy Policy</a></span
+              ></label
+            >
+          </div>
+          <div class="send-wrapper">
+            <button type="submit" class="send-button">Send</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="js/mobile-menu.js"></script>
+  </body>
+</html>
